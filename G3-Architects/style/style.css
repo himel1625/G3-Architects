@@ -263,3 +263,53 @@ line-height: 40px;
   font-size: 20px;
   font-weight: 600;
 }
+/* communication section  */
+
+footer{
+    height: 400px;
+    width: 1440px;
+    margin: 0 auto;
+}
+.communication-caption
+{
+  text-align: center;
+}
+.communication-caption h1{
+  color: var(--pColor);
+  font-size: 40px;
+  font-weight: 700;
+}
+.communication-caption p{
+  width: 45%;
+  margin: 0 auto;
+  font-size: 16px;
+  color: var(--sColor);
+  font-weight: 400;
+  margin-top: 20px;
+}
+.communication-link
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.footer-bottom{
+  width: 1440px;
+  height: 100px;
+  background: rgb(255, 244, 231);
+  border-radius: 8px;
+  margin:0 auto ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.footer-bottom p{
+  color: rgb(66, 66, 66);
+  font-size: 20px;
+  font-weight: 400;
+
+}
