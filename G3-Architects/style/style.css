@@ -137,7 +137,6 @@ nav {
   height: 1000px;
   width: 1440px;
   margin: 0 auto;
-  /* border: 1px solid red; */
   margin-top: 40px;
 }
 .services-caption
@@ -145,7 +144,6 @@ nav {
   display: flex;
   flex-direction: column;
 }
-
 .services-text h1
 {
   border-left:8px solid var(--bgBColor);
@@ -202,7 +200,6 @@ left:-80px ;
   color: rgb(255, 255, 255);
   border-radius: 8px;
 }
-
 .experience-card h1{
   font-size: 45px;
   text-align: center;
@@ -211,4 +208,58 @@ left:-80px ;
 .experience-card p{
   font-size: 20px;
   text-align: center;
+}
+/* Achievement section    */
+.Achievement
+{
+    height: 600px;
+    width: 1440px;
+    margin:  0 auto;
+    margin-top: 50px;
+}
+.Achievement-caption
+{
+  padding: 20px 30px;
+}
+.Achievement-caption h1{
+  color: var(--pColor);
+  font-size: 45px;
+  font-weight: 700;
+}
+.Achievement-caption  p{
+  color: var(--sColor);
+  font-size: 16px;
+  width: 40%;
+  margin-top: 20px;
+}
+.Achievement-card
+{
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  justify-items: center;
+}
+.card-box
+{
+  border: 1px solid rgb(255, 144, 14);
+border-radius: 8px;
+width: 241.83px;
+height: 241.83px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+line-height: 40px;
+}
+.card-box h1{
+  color: rgb(66, 66, 66);
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 10px;
+} 
+.card-box p{
+  color: rgb(114, 114, 114);
+  font-size: 20px;
+  font-weight: 600;
 }
